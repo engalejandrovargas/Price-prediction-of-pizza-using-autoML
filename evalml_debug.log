@@ -1,0 +1,487 @@
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Using default limit of max_batches=1.
+
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Generating pipelines to search over...
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - automl_search.py: allowed_estimators set to ['Decision Tree Regressor', 'Extra Trees Regressor', 'XGBoost Regressor', 'CatBoost Regressor', 'Random Forest Regressor', 'LightGBM Regressor', 'Linear Regressor', 'Elastic Net Regressor']
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:53 AM - DEBUG - automl_search.py: allowed_pipelines set to ['Decision Tree Regressor w/ Imputer', 'Extra Trees Regressor w/ Imputer', 'XGBoost Regressor w/ Imputer', 'CatBoost Regressor w/ Imputer', 'Random Forest Regressor w/ Imputer', 'LightGBM Regressor w/ Imputer', 'Linear Regressor w/ Imputer + Standard Scaler', 'Elastic Net Regressor w/ Imputer + Standard Scaler']
+08/28/2023 10:40:53 AM - DEBUG - automl_search.py: allowed_model_families set to [ModelFamily.RANDOM_FOREST, ModelFamily.CATBOOST, ModelFamily.LINEAR_MODEL, ModelFamily.XGBOOST, ModelFamily.DECISION_TREE, ModelFamily.EXTRA_TREES, ModelFamily.LIGHTGBM]
+08/28/2023 10:40:53 AM - INFO - logger.py: 
+*****************************
+08/28/2023 10:40:53 AM - INFO - logger.py: * Beginning pipeline search *
+08/28/2023 10:40:53 AM - INFO - logger.py: *****************************
+08/28/2023 10:40:53 AM - INFO - logger.py: 
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Optimizing for R2. 
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Greater score is better.
+
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Using SequentialEngine to train and score pipelines.
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Searching up to 1 batches for a total of 9 pipelines. 
+08/28/2023 10:40:53 AM - INFO - automl_search.py: Allowed model families: random_forest, catboost, linear_model, xgboost, decision_tree, extra_trees, lightgbm
+
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - INFO - automl_search.py: Evaluating Baseline Pipeline: Mean Baseline Regression Pipeline
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - INFO - engine_base.py: Mean Baseline Regression Pipeline:
+08/28/2023 10:40:54 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: -0.007
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: -0.002
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:40:54 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: -0.002
+08/28/2023 10:40:54 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: -0.004
+08/28/2023 10:40:54 AM - WARNING - automl_search.py: 	High coefficient of variation (cv >= 0.2) within cross validation scores.
+	Mean Baseline Regression Pipeline may not perform as estimated on unseen data.
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:40:54 AM - INFO - logger.py: 
+*****************************
+08/28/2023 10:40:54 AM - INFO - logger.py: * Evaluating Batch Number 1 *
+08/28/2023 10:40:54 AM - INFO - logger.py: *****************************
+08/28/2023 10:40:54 AM - INFO - logger.py: 
+08/28/2023 10:40:56 AM - INFO - engine_base.py: Linear Regressor w/ Imputer + Standard Scaler:
+08/28/2023 10:40:56 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: -59751564042953199217278976.000
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: -51176659558992097983856640.000
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:40:56 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: -4179980754285793624509644800.000
+08/28/2023 10:40:56 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: -1430302992629246421769388032.000
+08/28/2023 10:40:56 AM - WARNING - automl_search.py: 	High coefficient of variation (cv >= 0.2) within cross validation scores.
+	Linear Regressor w/ Imputer + Standard Scaler may not perform as estimated on unseen data.
+08/28/2023 10:40:57 AM - INFO - engine_base.py: Decision Tree Regressor w/ Imputer:
+08/28/2023 10:40:57 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.928
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.722
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:40:57 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.895
+08/28/2023 10:40:57 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.848
+08/28/2023 10:40:59 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/28/2023 10:40:59 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.938
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.777
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:40:59 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.865
+08/28/2023 10:40:59 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.860
+08/28/2023 10:41:00 AM - INFO - engine_base.py: LightGBM Regressor w/ Imputer:
+08/28/2023 10:41:00 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.380
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.351
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:00 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.356
+08/28/2023 10:41:00 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.362
+08/28/2023 10:41:02 AM - INFO - engine_base.py: Elastic Net Regressor w/ Imputer + Standard Scaler:
+08/28/2023 10:41:02 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.880
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.806
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:02 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.829
+08/28/2023 10:41:02 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.838
+08/28/2023 10:41:04 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/28/2023 10:41:04 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.982
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.811
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:04 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.907
+08/28/2023 10:41:04 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.900
+08/28/2023 10:41:05 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/28/2023 10:41:05 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.877
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.751
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:05 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.825
+08/28/2023 10:41:05 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.817
+08/28/2023 10:41:07 AM - INFO - engine_base.py: CatBoost Regressor w/ Imputer:
+08/28/2023 10:41:07 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.204
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.183
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:07 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.149
+08/28/2023 10:41:07 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.179
+08/28/2023 10:41:07 AM - INFO - automl_search.py: 
+Search finished after 00:13            
+08/28/2023 10:41:07 AM - INFO - automl_search.py: Best pipeline: XGBoost Regressor w/ Imputer
+08/28/2023 10:41:07 AM - INFO - automl_search.py: Best pipeline R2: 0.900145
+08/28/2023 10:41:08 AM - INFO - logger.py: 
+********************************
+08/28/2023 10:41:08 AM - INFO - logger.py: * XGBoost Regressor w/ Imputer *
+08/28/2023 10:41:08 AM - INFO - logger.py: ********************************
+08/28/2023 10:41:08 AM - INFO - logger.py: 
+08/28/2023 10:41:08 AM - INFO - pipeline_base.py: Problem Type: regression
+08/28/2023 10:41:08 AM - INFO - pipeline_base.py: Model Family: XGBoost
+08/28/2023 10:41:08 AM - INFO - logger.py: 
+08/28/2023 10:41:08 AM - INFO - logger.py: Pipeline Steps
+08/28/2023 10:41:08 AM - INFO - logger.py: ==============
+08/28/2023 10:41:08 AM - INFO - pipeline_base.py: 1. Imputer
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * categorical_impute_strategy : most_frequent
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * numeric_impute_strategy : mean
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * categorical_fill_value : None
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * numeric_fill_value : None
+08/28/2023 10:41:08 AM - INFO - pipeline_base.py: 2. XGBoost Regressor
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * eta : 0.1
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * max_depth : 6
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * min_child_weight : 1
+08/28/2023 10:41:08 AM - INFO - component_base.py: 	 * n_estimators : 100
+08/28/2023 10:41:08 AM - INFO - logger.py: 
+08/28/2023 10:41:08 AM - INFO - logger.py: Training
+08/28/2023 10:41:08 AM - INFO - logger.py: ========
+08/28/2023 10:41:08 AM - INFO - automl_search.py: Training for regression problems.
+08/28/2023 10:41:08 AM - INFO - automl_search.py: Total training time (including CV): 1.5 seconds
+08/28/2023 10:41:08 AM - INFO - logger.py: 
+08/28/2023 10:41:08 AM - INFO - logger.py: Cross Validation
+08/28/2023 10:41:08 AM - INFO - logger.py: ----------------
+08/28/2023 10:41:08 AM - INFO - automl_search.py:                R2  ExpVariance  MaxError  MedianAE           MSE       MAE  Root Mean Squared Error # Training # Validation
+0           0.982        0.983 15834.250  3866.289  44764652.914  5173.268                 6690.639         68           35
+1           0.811        0.815 85521.359  5194.746 449121548.320 11705.223                21192.488         69           34
+2           0.907        0.907 29883.367  9016.881 168283016.124  9810.098                12972.394         69           34
+mean        0.900        0.902 43746.326  6025.972 220723072.453  8896.196                13618.507          -            -
+std         0.086        0.084 36853.894  2674.014 207216298.457  3360.509                 7272.482          -            -
+coef of var 0.095        0.093     0.842     0.444         0.939     0.378                    0.534          -            -
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Generating pipelines to search over...
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - automl_search.py: allowed_estimators set to ['Decision Tree Regressor', 'Extra Trees Regressor', 'XGBoost Regressor', 'CatBoost Regressor', 'Random Forest Regressor', 'LightGBM Regressor', 'Linear Regressor', 'Elastic Net Regressor']
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - automl_search.py: allowed_pipelines set to ['Decision Tree Regressor w/ Imputer', 'Extra Trees Regressor w/ Imputer', 'XGBoost Regressor w/ Imputer', 'CatBoost Regressor w/ Imputer', 'Random Forest Regressor w/ Imputer', 'LightGBM Regressor w/ Imputer', 'Linear Regressor w/ Imputer + Standard Scaler', 'Elastic Net Regressor w/ Imputer + Standard Scaler']
+08/28/2023 10:41:09 AM - DEBUG - automl_search.py: allowed_model_families set to [ModelFamily.RANDOM_FOREST, ModelFamily.CATBOOST, ModelFamily.LINEAR_MODEL, ModelFamily.XGBOOST, ModelFamily.DECISION_TREE, ModelFamily.EXTRA_TREES, ModelFamily.LIGHTGBM]
+08/28/2023 10:41:09 AM - INFO - logger.py: 
+*****************************
+08/28/2023 10:41:09 AM - INFO - logger.py: * Beginning pipeline search *
+08/28/2023 10:41:09 AM - INFO - logger.py: *****************************
+08/28/2023 10:41:09 AM - INFO - logger.py: 
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Optimizing for R2. 
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Greater score is better.
+
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Using SequentialEngine to train and score pipelines.
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Searching up to 1 batches for a total of 9 pipelines. 
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Allowed model families: random_forest, catboost, linear_model, xgboost, decision_tree, extra_trees, lightgbm
+
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - INFO - automl_search.py: Evaluating Baseline Pipeline: Mean Baseline Regression Pipeline
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - INFO - engine_base.py: Mean Baseline Regression Pipeline:
+08/28/2023 10:41:09 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: -0.007
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: -0.002
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:09 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: -0.002
+08/28/2023 10:41:09 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: -0.004
+08/28/2023 10:41:09 AM - WARNING - automl_search.py: 	High coefficient of variation (cv >= 0.2) within cross validation scores.
+	Mean Baseline Regression Pipeline may not perform as estimated on unseen data.
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/28/2023 10:41:09 AM - INFO - logger.py: 
+*****************************
+08/28/2023 10:41:09 AM - INFO - logger.py: * Evaluating Batch Number 1 *
+08/28/2023 10:41:09 AM - INFO - logger.py: *****************************
+08/28/2023 10:41:09 AM - INFO - logger.py: 
+08/28/2023 10:41:11 AM - INFO - engine_base.py: Linear Regressor w/ Imputer + Standard Scaler:
+08/28/2023 10:41:11 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: -59751564042953199217278976.000
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: -51176659558992097983856640.000
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:11 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: -4179980754285793624509644800.000
+08/28/2023 10:41:11 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: -1430302992629246421769388032.000
+08/28/2023 10:41:11 AM - WARNING - automl_search.py: 	High coefficient of variation (cv >= 0.2) within cross validation scores.
+	Linear Regressor w/ Imputer + Standard Scaler may not perform as estimated on unseen data.
+08/28/2023 10:41:13 AM - INFO - engine_base.py: Decision Tree Regressor w/ Imputer:
+08/28/2023 10:41:13 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.928
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.722
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:13 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.895
+08/28/2023 10:41:13 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.848
+08/28/2023 10:41:14 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/28/2023 10:41:14 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.938
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.777
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:14 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.865
+08/28/2023 10:41:14 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.860
+08/28/2023 10:41:16 AM - INFO - engine_base.py: LightGBM Regressor w/ Imputer:
+08/28/2023 10:41:16 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.380
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.351
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:16 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.356
+08/28/2023 10:41:16 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.362
+08/28/2023 10:41:18 AM - INFO - engine_base.py: Elastic Net Regressor w/ Imputer + Standard Scaler:
+08/28/2023 10:41:18 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.880
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.806
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:18 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.829
+08/28/2023 10:41:18 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.838
+08/28/2023 10:41:19 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/28/2023 10:41:19 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.982
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.811
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:19 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.907
+08/28/2023 10:41:19 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.900
+08/28/2023 10:41:21 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/28/2023 10:41:21 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.877
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.751
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:21 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.825
+08/28/2023 10:41:21 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.817
+08/28/2023 10:41:22 AM - INFO - engine_base.py: CatBoost Regressor w/ Imputer:
+08/28/2023 10:41:22 AM - INFO - engine_base.py: 	Starting cross validation
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 0: R2 score: 0.204
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 1: R2 score: 0.183
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/28/2023 10:41:22 AM - DEBUG - engine_base.py: 			Fold 2: R2 score: 0.149
+08/28/2023 10:41:22 AM - INFO - engine_base.py: 	Finished cross validation - mean R2: 0.179
+08/28/2023 10:41:22 AM - INFO - automl_search.py: 
+Search finished after 00:13            
+08/28/2023 10:41:23 AM - INFO - automl_search.py: Best pipeline: XGBoost Regressor w/ Imputer
+08/28/2023 10:41:23 AM - INFO - automl_search.py: Best pipeline R2: 0.900145
