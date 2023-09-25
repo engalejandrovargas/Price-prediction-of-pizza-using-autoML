@@ -19,8 +19,8 @@ The dataset used in this project contains the following columns:
 
 ## Methodology
 This project uses the following machine learning algorithms and AutoML frameworks:
-- Random Forest
-- XGBoost
+- XGB Regressor
+- Support Vector Regressor
 - AutoML Framework (EVAL ML)
 
 ## Results
