@@ -12,6 +12,12 @@ This project aims to predict the price of pizzas using machine learning algorith
 
 ## Data
 The dataset used in this project contains the following columns:
+
+- company
+- diameter
+- extra_sauce
+- extra_cheese
+- extra_mushrooms
 - Size
 - Toppings
 - Location
